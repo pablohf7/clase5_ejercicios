@@ -3,6 +3,7 @@ def Menu():
         print('Bievenidos al sistema de compras')
         print('1=Entrar')
         print('2=Salir')
+        print('')
 
         opcion = input('Opcion: ')
         if opcion == '1':
@@ -12,4 +13,6 @@ def Menu():
             break
         else:
             print('Reintenta')
+
+Menu()
 
